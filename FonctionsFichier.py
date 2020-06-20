@@ -10,7 +10,6 @@ from tkinter import messagebox
 
 #création d'un répertoire + nommage du fichier final
 def creationRepertoire(nomCompletRepertoire):
-    #cheminImage = "./Images/"
     try:
         # Bloc à essayer - création du répertoire
         os.mkdir(nomCompletRepertoire)
